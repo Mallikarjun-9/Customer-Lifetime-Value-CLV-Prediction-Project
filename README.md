@@ -44,6 +44,25 @@ The dataset used is the **Online Retail Dataset**. Key columns include:
   - High Value (CLV > 5000)
   - Medium Value (2000 < CLV ≤ 5000)
   - Low Value (CLV ≤ 2000)
+    
+---
+
+## ✅ Desired Output Format (Sample)
+
+| CustomerID | Recency | Frequency | AOV   | Predicted CLV | Segment     |
+|------------|---------|-----------|-------|---------------|-------------|
+| 12345      | 42      | 7         | 43.50 | 3154.78       | Medium      |
+| 23456      | 5       | 12        | 88.20 | 7480.33       | High        |
+| 34567      | 200     | 2         | 12.00 | 540.22        | Low         |
+
+---
+
+## 📊 Visualizations
+
+Below are some visualizations created during the EDA and prediction steps:
+
+### CLV Distribution by Segment
+![CLV Segment Distribution]()
 
 ---
 
@@ -62,12 +81,11 @@ The project successfully predicted CLV using transaction patterns and helped seg
 ---
 
 ## 📁 Project Structure
-CLV_Prediction_Project/
-│
-├── clv.py # Main Python script
-├── Online Retail.csv # Dataset
-├── CLV_Project_Report.pdf # Final report
-└── README.md # This file
+CLV_Prediction_Project
+-clv.py # Main Python script
+-Online Retail.csv # Dataset
+-CLV_Project_Report.pdf # Final report
+-README.md # This file
 
 ---
 
