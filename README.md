@@ -62,7 +62,7 @@ The dataset used is the **Online Retail Dataset**. Key columns include:
 Below are some visualizations created during the EDA and prediction steps:
 
 ### CLV Distribution by Segment
-![CLV Segment Distribution]()
+![CLV Segment Distribution](https://github.com/Mallikarjun-9/Customer-Lifetime-Value-CLV-Prediction-Project/blob/02ba8e4eb18cbb8a0770b17e44507ae0144c75b0/Figure_1.png)
 
 ---
 
@@ -77,15 +77,6 @@ Below are some visualizations created during the EDA and prediction steps:
 
 ## ✅ Conclusion
 The project successfully predicted CLV using transaction patterns and helped segment customers into meaningful groups. This approach can help businesses allocate resources efficiently and focus on high-value customers for better ROI.
-
----
-
-## 📁 Project Structure
-CLV_Prediction_Project
--clv.py # Main Python script
--Online Retail.csv # Dataset
--CLV_Project_Report.pdf # Final report
--README.md # This file
 
 ---
 
